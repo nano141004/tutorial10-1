@@ -1,6 +1,11 @@
+## 1.2
+
 ![ss1](images/ss1.png)
 
 Yang terjadi adalah string "... hey hey" keluar pertama dan langsung diikuti string "... howdy!", kemudian 2 detik setelahnya baru string "... done!" keluar. string "... hey hey" keluar pertama karena perintah printnya sebelum perintah executor.run, yang kemudian langsung string "... howdy!" juga keluar, dan 2 detik setelah itu baru string "... done!" keluar karena ada fungsi TimerFuture yang di set untuk menunggu 2 detik.
+
+
+## 1.3
 
 ![ss2](images/ss2.png)
 
